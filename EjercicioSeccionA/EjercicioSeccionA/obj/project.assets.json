@@ -5873,11 +5873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\source\\repos\\EjercicioSeccionA\\EjercicioSeccionA\\EjercicioSeccionA.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Documents\\GitHub\\Proyectos-UMG-A\\EjercicioSeccionA\\EjercicioSeccionA\\EjercicioSeccionA.csproj",
       "projectName": "EjercicioSeccionA",
-      "projectPath": "C:\\Users\\alumno\\source\\repos\\EjercicioSeccionA\\EjercicioSeccionA\\EjercicioSeccionA.csproj",
+      "projectPath": "C:\\Users\\alumno\\Documents\\GitHub\\Proyectos-UMG-A\\EjercicioSeccionA\\EjercicioSeccionA\\EjercicioSeccionA.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\source\\repos\\EjercicioSeccionA\\EjercicioSeccionA\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Documents\\GitHub\\Proyectos-UMG-A\\EjercicioSeccionA\\EjercicioSeccionA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
