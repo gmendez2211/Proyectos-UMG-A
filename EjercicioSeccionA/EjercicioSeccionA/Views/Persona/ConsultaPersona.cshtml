@@ -1,0 +1,26 @@
+﻿@model EjercicioSeccionA.Models.PersonaModel
+
+<h1>Módulo Consultas de Personas</h1>
+<hr/>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.NombrePersona)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.NombrePersona)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.ApellidoPersona)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.ApellidoPersona)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.EdadPersona)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.EdadPersona)
+    </dd>
+</dl>
+<a asp-action="Index">Regresar</a>
