@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioSeccionA.Repository.iRepository
 {
-    interface iPersonaRepository
+    public interface iPersonaRepository
     {
         ICollection<PersonaModel> GetPersonaModels();  //Obtengo un listado completo de todas las personas
         PersonaModel GetPersona(int nCodigoPersona); //Obtengo a la persona según el código que le envíe.

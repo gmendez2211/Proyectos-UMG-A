@@ -12,7 +12,8 @@ namespace EjercicioSeccionA.Mapper
     {
         public PersonaMappers()
         {
-            CreateMap<PersonaModel, PersonaDto>().ReverseMap();        
+            CreateMap<PersonaModel, PersonaDto>().ReverseMap();
+            CreateMap<PersonaModel, PersonaSaveDto>().ReverseMap();
         }
 
     }

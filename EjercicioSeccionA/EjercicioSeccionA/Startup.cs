@@ -1,4 +1,5 @@
 using EjercicioSeccionA.Connection;
+using EjercicioSeccionA.Mapper;
 using EjercicioSeccionA.Repository;
 using EjercicioSeccionA.Repository.iRepository;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +31,7 @@ namespace EjercicioSeccionA
             services.AddDbContext<Conn>(Options => Options.UseSqlServer(Configuration.GetConnectionString("ConnDBSQL")));
             services.AddScoped<iPersonaRepository, PersonaRepository>();
             //services.AddRazorPages();
+            services.AddAutoMapper(typeof(PersonaMappers));
             services.AddControllersWithViews();
         }
 
